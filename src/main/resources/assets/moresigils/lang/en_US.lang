@@ -1,0 +1,9 @@
+# Items
+item.sigilNightVision.name=Sigil of Night Vision
+item.itemid.name=Item Name
+
+# Blocks
+tile.blockid.name=Block Name
+
+#mod title
+itemGroup.moresigils=More Sigils

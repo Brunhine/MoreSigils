@@ -1,12 +1,20 @@
 package com.brunhine.moresigils;
 
-class Constants
+public class Constants
 {
-    static class Mod
+    public static class Mod
     {
 
-        static final String Id = "moresigils";
+        public static final String Id = "moresigils";
         static final String Name = "More Sigils for Blood Magic";
         static final String Version = "@VERSION@";
+        static final String McVersion = "[1.10.2]";
+    }
+
+    public static class Items
+    {
+        public static final String SigilNightVision = "ItemSigilNightVision";
+
+
     }
 }
