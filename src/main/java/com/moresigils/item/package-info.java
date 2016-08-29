@@ -1,6 +1,6 @@
 @ParametersAreNonnullByDefault
 @MethodsReturnNonnullByDefault
-package com.brunhine.moresigils.client;
+package com.moresigils.item;
 
 import mcp.MethodsReturnNonnullByDefault;
 

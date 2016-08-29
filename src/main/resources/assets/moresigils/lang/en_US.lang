@@ -1,5 +1,6 @@
 # Items
-item.sigilNightVision.name=Sigil of Night Vision
+item.moresigils.reagentNightVision.name=Night Vision Reagent
+item.moresigils.sigil.NightVision.name=Sigil of Night Vision
 item.itemid.name=Item Name
 
 # Blocks

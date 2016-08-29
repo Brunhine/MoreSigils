@@ -1,22 +1,22 @@
-package com.brunhine.moresigils.client;
+package com.moresigils.client;
 
-import com.brunhine.moresigils.Constants;
+import com.moresigils.Constants;
+import com.moresigils.registry.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 public class MoreSigilsTab extends CreativeTabs
 {
     public MoreSigilsTab()
     {
-        super(Constants.Mod.Id);
+        super(Constants.Mod.ID);
     }
 
 
     @Override
     public Item getTabIconItem()
     {
-        return Items.SPLASH_POTION;
+        return ModItems.sigilNightVision;
     }
 
     @Override
