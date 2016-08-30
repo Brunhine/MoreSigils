@@ -1,6 +1,7 @@
 package com.moresigils.item;
 
 
+import com.moresigils.Constants;
 import com.moresigils.item.sigil.ItemSigilBaseToggleable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
@@ -16,16 +17,27 @@ public class PotionSigil extends ItemSigilBaseToggleable
 {
     private PotionEffect potionEffect;
     private Potion mobEffect;
+    private String name;
 
     public PotionSigil(String name, int lpCost, PotionType potionType, Potion potion)
     {
         super(name, lpCost);
+
+        setUnlocalizedName(Constants.Mod.ID + ".Sigil" + name);
+
+        this.name = name;
+
         MinecraftForge.EVENT_BUS.register(this);
 
         ItemStack stack = PotionUtils.addPotionToItemStack(new ItemStack(Items.POTIONITEM), potionType);
         this.potionEffect = PotionUtils.getEffectsFromStack(stack).get(0);
 
         this.mobEffect = potion;
+    }
+
+    public String getName()
+    {
+        return this.name;
     }
 
     @Override

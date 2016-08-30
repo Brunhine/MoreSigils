@@ -1,11 +1,9 @@
 package com.moresigils.registry;
 
-import com.moresigils.ConfigHandler;
 import com.moresigils.MoreSigils;
 import com.moresigils.item.ItemBase;
-import com.moresigils.item.PotionSigil;
-import net.minecraft.init.MobEffects;
-import net.minecraft.init.PotionTypes;
+import com.moresigils.item.sigil.ItemSigilInvisibility;
+import com.moresigils.item.sigil.ItemSigilNightVision;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
@@ -17,7 +15,7 @@ public class ModItems
     public static Item reagentNightVision;
 
     public static Item sigilNightVision;
-    public static Item sigilInvisibility;
+    static Item sigilInvisibility;
 
     public static void init()
     {
@@ -29,9 +27,8 @@ public class ModItems
         /*
         Sigils
          */
-        //sigilNightVision = registerItem(new ItemSigilNightVision());
-        sigilNightVision = registerUniqueItem(new PotionSigil("NightVision", ConfigHandler.sigilNightVisionCost, PotionTypes.NIGHT_VISION, MobEffects.NIGHT_VISION));
-        sigilInvisibility = registerUniqueItem(new PotionSigil("Invisibility", 100, PotionTypes.INVISIBILITY, MobEffects.INVISIBILITY));
+        sigilNightVision = registerItem(new ItemSigilNightVision());
+        sigilInvisibility = registerItem(new ItemSigilInvisibility());
     }
 
 
