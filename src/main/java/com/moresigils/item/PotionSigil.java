@@ -15,9 +15,9 @@ import net.minecraftforge.common.MinecraftForge;
 
 public class PotionSigil extends ItemSigilBaseToggleable
 {
-    private PotionEffect potionEffect;
-    private Potion mobEffect;
-    private String name;
+    private final PotionEffect potionEffect;
+    private final Potion mobEffect;
+    private final String name;
 
     public PotionSigil(String name, int lpCost, PotionType potionType, Potion potion)
     {

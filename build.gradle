@@ -51,6 +51,7 @@ repositories {
 }
 
 dependencies {
+    deobfCompile "mezz.jei:jei_${mc_version}:${jei_version}"
     deobfCompile "com.wayoftime.bloodmagic:BloodMagic:1.9.4-${bloodmagic_version}"
     deobfCompile "info.amerifrance.guideapi:Guide-API:1.10.2-${guideapi_version}"
 }

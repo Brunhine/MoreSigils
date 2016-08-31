@@ -70,7 +70,7 @@ public class ItemSigilBaseToggleable extends ItemSigilToggleable implements IMes
     @Override
     public List<String> getVariants()
     {
-        List<String> ret = new ArrayList<String>();
+        List<String> ret = new ArrayList<>();
         ret.add("active=false");
         ret.add("active=true");
         return ret;

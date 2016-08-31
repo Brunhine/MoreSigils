@@ -22,7 +22,7 @@ public class MoreSigils
     @Mod.Instance(Constants.Mod.ID)
     public static MoreSigils INSTANCE;
 
-    private LogHelper logger = new LogHelper(Constants.Mod.ID);
+    private final LogHelper logger = new LogHelper(Constants.Mod.ID);
     private File configDir;
 
     public LogHelper getLogger()

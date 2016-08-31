@@ -14,8 +14,8 @@ import net.minecraftforge.common.MinecraftForge;
 
 public class ItemSigilInvisibility extends ItemSigilBaseToggleable implements IPotionSigil
 {
-    private PotionEffect potionEffect;
-    private Potion mobEffect;
+    private final PotionEffect potionEffect;
+    private final Potion mobEffect;
 
     public ItemSigilInvisibility()
     {
