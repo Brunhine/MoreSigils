@@ -6,9 +6,44 @@
   },
   "variants": {
     "type": {
+      "reagentfireresist": {
+        "textures": {
+          "layer0": "moresigils:items/ReagentBase"
+        }
+      },
+      "reagentinvisibility": {
+        "textures": {
+          "layer0": "moresigils:items/ReagentBase"
+        }
+      },
+      "reagentleaping": {
+        "textures": {
+          "layer0": "moresigils:items/ReagentBase"
+        }
+      },
       "reagentnightvision": {
         "textures": {
-          "layer0": "moresigils:items/ReagentNightVision"
+          "layer0": "moresigils:items/ReagentBase"
+        }
+      },
+      "reagentregeneration": {
+        "textures": {
+          "layer0": "moresigils:items/ReagentBase"
+        }
+      },
+      "reagentstrength": {
+        "textures": {
+          "layer0": "moresigils:items/ReagentBase"
+        }
+      },
+      "reagentswiftness": {
+        "textures": {
+          "layer0": "moresigils:items/ReagentBase"
+        }
+      },
+      "reagentwaterbreath": {
+        "textures": {
+          "layer0": "moresigils:items/ReagentBase"
         }
       }
     }

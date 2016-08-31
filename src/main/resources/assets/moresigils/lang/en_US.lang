@@ -1,6 +1,22 @@
 # Items
+item.moresigils.reagentFireResist.name=Fire Resist Reagent
+item.moresigils.reagentInvisibility.name=Invisibility Reagent
+item.moresigils.reagentLeaping.name=Leaping Reagent
 item.moresigils.reagentNightVision.name=Night Vision Reagent
+item.moresigils.reagentRegeneration.name=Regeneration Reagent
+item.moresigils.reagentStrength.name=Strength Reagent
+item.moresigils.reagentSwiftness.name=Swiftness Reagent
+item.moresigils.reagentWaterBreath.name=Water Breath Reagent
+
+## Sigils
+item.moresigils.sigil.FireResist.name=Sigil of Fire Resist
+item.moresigils.sigil.Invisibility.name=Sigil of Invisibility
+item.moresigils.sigil.Leaping.name=Sigil of Leaping
 item.moresigils.sigil.NightVision.name=Sigil of Night Vision
+item.moresigils.sigil.Regeneration.name=Sigil of Regeneration
+item.moresigils.sigil.Strength.name=Sigil of Strength
+item.moresigils.sigil.Swiftness.name=Sigil of Swiftness
+item.moresigils.sigil.WaterBreath.name=Sigil of Water Breath
 item.itemid.name=Item Name
 
 # Blocks

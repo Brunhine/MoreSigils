@@ -32,10 +32,45 @@ public class ModRecipes
 
     private static void addAlchemyArrayRecipes()
     {
+        // Fire resist sigil
+        AlchemyArrayRecipeRegistry.registerCraftingRecipe(new ItemStack(ModItems.reagentFireResist),
+                new ItemStack(getBMItem(Constants.BloodMagicItem.SLATE), 1, 4),
+                new ItemStack(ModItems.sigilFireResist));
+
+        // Invisibility sigil
+        AlchemyArrayRecipeRegistry.registerCraftingRecipe(new ItemStack(ModItems.reagentInvisibility),
+                new ItemStack(getBMItem(Constants.BloodMagicItem.SLATE), 1, 4),
+                new ItemStack(ModItems.sigilInvisibility));
+
+        // Leaping sigil
+        AlchemyArrayRecipeRegistry.registerCraftingRecipe(new ItemStack(ModItems.reagentLeaping),
+                new ItemStack(getBMItem(Constants.BloodMagicItem.SLATE), 1, 4),
+                new ItemStack(ModItems.sigilLeaping));
+
+        // Night Vision sigil
         AlchemyArrayRecipeRegistry.registerCraftingRecipe(new ItemStack(ModItems.reagentNightVision),
                 new ItemStack(getBMItem(Constants.BloodMagicItem.SLATE), 1, 4),
                 new ItemStack(ModItems.sigilNightVision));
 
+        // Regeneration sigil
+        AlchemyArrayRecipeRegistry.registerCraftingRecipe(new ItemStack(ModItems.reagentRegeneration),
+                new ItemStack(getBMItem(Constants.BloodMagicItem.SLATE), 1, 4),
+                new ItemStack(ModItems.sigilRegeneration));
+
+        // Strength sigil
+        AlchemyArrayRecipeRegistry.registerCraftingRecipe(new ItemStack(ModItems.reagentStrength),
+                new ItemStack(getBMItem(Constants.BloodMagicItem.SLATE), 1, 4),
+                new ItemStack(ModItems.sigilStrength));
+
+        // Swiftness sigil
+        AlchemyArrayRecipeRegistry.registerCraftingRecipe(new ItemStack(ModItems.reagentSwiftness),
+                new ItemStack(getBMItem(Constants.BloodMagicItem.SLATE), 1, 4),
+                new ItemStack(ModItems.sigilSwiftness));
+
+        // Water Breath sigil
+        AlchemyArrayRecipeRegistry.registerCraftingRecipe(new ItemStack(ModItems.reagentWaterBreath),
+                new ItemStack(getBMItem(Constants.BloodMagicItem.SLATE), 1, 4),
+                new ItemStack(ModItems.sigilWaterBreath));
     }
 
     public static void addForgeRecipe(ItemStack output, double minWill, double drain, Object... recipe)
